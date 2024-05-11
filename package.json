@@ -1,0 +1,42 @@
+{
+  "name": "glowradiance",
+  "version": "1.0.0",
+  "description": "beauty website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "convertirWebp": "gulp convertirWebp"
+  },
+  "keywords": [
+    "gulp",
+    "css",
+    "html",
+    "sass"
+  ],
+  "author": "Stephanie Gonzalez M",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "cssnano": "^6.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^5.0.0",
+    "sass": "^1.75.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Stepha-gon/HomeHunter/issues"
+  },
+  "homepage": "https://github.com/Stepha-gon/HomeHunter#readme",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser-js": "^5.2.2"
+  }
+}

@@ -1,0 +1,27 @@
+// * Importar archivos Base
+
+@import "base/normalize";
+@import "base/globales";
+@import "base/index";
+@import "base/mixins";
+@import "base/tipografia";
+@import "base/variables";
+
+//* Layout
+
+@import "layout/index";
+@import "layout/UI";
+@import "layout/cita";
+@import "layout/servicios";
+@import "layout/resumen";
+@import "layout/admin";
+
+//*componentes
+
+@import "componentes/index";
+@import "componentes/formulario";
+@import "componentes/botones";
+@import "componentes/acciones";
+@import "componentes/alertas";
+@import "componentes/tabs";
+@import "componentes/paginacion";
