@@ -13,6 +13,22 @@
   background-image: url(../img/portada.jpg);
   background-size: cover;
   background-position: center center;
+  z-index: 1;
+  .title {
+    z-index: 2;
+    font-family: v.$fuente-titulo;
+    margin-top: 3rem;
+    background: linear-gradient(
+      0deg,
+      rgba(251, 255, 251, 0.9332107843137255) 12%,
+      rgba(243, 232, 229, 1) 33%,
+      rgba(234, 204, 202, 1) 53%,
+      rgba(212, 140, 140, 1) 77%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
   @include m.tablet {
     height: auto;
   }
